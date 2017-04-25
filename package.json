@@ -1,0 +1,35 @@
+{
+  "name": "ember-fastboot-deploy",
+  "version": "0.0.1",
+  "description": "FastBoot Deploy Server, Downloader, Notifier and Cache for full deploy workflow",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sescobb27/ember-fastboot-deploy.git"
+  },
+  "keywords": [
+    "fastboot",
+    "ember",
+    "ember-cli-deploy",
+    "deploy"
+  ],
+  "author": "Simon Escobar <s.escob.b.27@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sescobb27/ember-fastboot-deploy/issues"
+  },
+  "homepage": "https://github.com/sescobb27/ember-fastboot-deploy#readme",
+  "dependencies": {
+    "aws-sdk": "^2.45.0",
+    "bluebird": "^3.5.0",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "express-sslify": "^1.2.0",
+    "fastboot-app-server": "^1.0.0-rc.5",
+    "lodash": "^4.17.4",
+    "redis": "^2.7.1"
+  }
+}
