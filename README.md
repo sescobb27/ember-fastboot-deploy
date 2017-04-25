@@ -6,13 +6,13 @@ recomended ember-cli-deploy setup:
 
 you will need these plugins in you ember app:
 
-ember-cli-deploy-build
-ember-cli-deploy-revision-data
-ember-cli-deploy-manifest
-ember-cli-deploy-redis
-ember-cli-deploy-redis-publish-revision
-ember-cli-deploy-s3
-ember-cli-deploy-s3-zip
+- [ember-cli-deploy-build](https://github.com/ember-cli-deploy/ember-cli-deploy-build)
+- [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data)
+- [ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
+- [ember-cli-deploy-redis](https://github.com/ember-cli-deploy/ember-cli-deploy-redis)
+- [ember-cli-deploy-redis-publish-revision](https://github.com/elizabethandclarke/ember-cli-deploy-redis-publish-revision)
+- [ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-s3)
+- [ember-cli-deploy-s3-zip](https://github.com/NicolleJimenez/ember-cli-deploy-s3-zip)
 
 ```js
 // config/depoy.js
