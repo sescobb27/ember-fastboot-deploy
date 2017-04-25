@@ -90,3 +90,7 @@ It is in charge of
 - [ ] Add Tests
 - [ ] Add Better Documentation
 - [ ] Add Felixibility/Configuration so it can be used by other people
+
+### Disclaimer
+
+I took some ideas and adapted them into this solution from this issue https://github.com/ember-cli-deploy/ember-cli-deploy-s3/issues/66 and from the following repositories: [fastboot-s3-notifier](https://github.com/tomdale/fastboot-s3-notifier), [fastboot-redis-cache](https://github.com/tomdale/fastboot-redis-cache), [fastboot-s3-downloader](https://github.com/tomdale/fastboot-s3-downloader), [fastboot-aws](https://github.com/tomdale/fastboot-aws), [ember-cli-deploy-zip](https://github.com/aesopwolf/ember-cli-deploy-zip)
