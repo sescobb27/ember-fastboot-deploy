@@ -1,4 +1,4 @@
-# Ember Fastboot Deploy
+# Ember Fastboot Deploy Workflow
 
 ## Ember App
 
