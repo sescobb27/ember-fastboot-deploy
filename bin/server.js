@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 'use strict'
 const FastBootAppServer = require('fastboot-app-server')
-const RedisCache = require('./cache/redis')
-const ECServer = require('./server')
-const S3Downloader = require('./downloader/s3')
-const RedisNotifier = require('./notifier/redis')
+const RedisCache = require('../lib/cache/redis')
+const ECServer = require('../lib/server')
+const S3Downloader = require('../lib/downloader/s3')
+const RedisNotifier = require('../lib/notifier/redis')
 
 const { S3_BUCKET, S3_ACCESS_KEY_STAGING, S3_SECRET_KEY_STAGING } = process.env
 
